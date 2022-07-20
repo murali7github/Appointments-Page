@@ -16,6 +16,9 @@
   padding: 35px;
   border: none;
   border-radius: 8px;
+  width: 90%;
+  margin-top: 30px;
+  overflow-x: auto;
 }
 .heading {
   font-family: 'Roboto';
@@ -126,6 +129,7 @@
   list-style-type: none;
   padding-left: 0px;
   display: flex;
+  flex-wrap: wrap;
 }
 @media (max-width: 768px) {
   .image-element {

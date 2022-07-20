@@ -87,12 +87,12 @@ class Appointments extends Component {
           <div className="image-form-container">
             <form onSubmit={this.onClickAddButton}>
               <div className="input-container">
-                <label htmlFor="titleInput" className="label-element">
-                  Title
+                <label htmlFor="Title" className="label-element">
+                  TITLE
                 </label>
                 <input
                   type="search"
-                  id="titleInput"
+                  id="Title"
                   placeholder="Title"
                   className="input-element"
                   value={title}
@@ -100,12 +100,12 @@ class Appointments extends Component {
                 />
               </div>
               <div className="input-container">
-                <label htmlFor="dateInput" className="label-element">
+                <label htmlFor="Date" className="label-element">
                   DATE
                 </label>
                 <input
                   type="date"
-                  id="dateInput"
+                  id="Date"
                   placeholder="dd/mm/yyy"
                   className="input-element"
                   value={date}

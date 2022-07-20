@@ -12,7 +12,7 @@ const AppointmentItem = props => {
     <li>
       <div className="list-item">
         <div className="title-image-container">
-          <h1 className="title-heading">{title}</h1>
+          <p className="title-heading">{title}</p>
           <button type="button" className="star-button" onClick={onChangeStar}>
             {isStarActive ? (
               <img
@@ -31,7 +31,7 @@ const AppointmentItem = props => {
             )}
           </button>
         </div>
-        <p className="date-para">Date: {date}</p>
+        <p className="date-para">Date:{date}</p>
       </div>
     </li>
   )
