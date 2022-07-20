@@ -1,0 +1,153 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  overflow: auto;
+}
+.card-container {
+  background-color: #ffffff;
+  padding: 35px;
+  border: none;
+  border-radius: 8px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+  color: #171f46;
+  margin-bottom: 20px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.label-element {
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 600;
+  color: #b5b7c4;
+  margin-bottom: 5px;
+}
+.input-element {
+  height: 32px;
+  border: 1px solid #b5b7c4;
+  border-radius: 4px;
+  padding-left: 10px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  width: 160%;
+  cursor: pointer;
+  outline: none;
+}
+.button {
+  background-color: #8b5cf6;
+  border: none;
+  border-radius: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Roboto';
+  font-size: 11px;
+  font-weight: 500;
+  color: #ffffff;
+  height: 28px;
+}
+.image-element {
+  width: 50%;
+}
+.image-form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.line-separator {
+  font-size: 1px;
+  border-style: solid;
+  border-color: #b5b7c4;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.appointments-container {
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.appointments-heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.appointments-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #171f46;
+  margin-bottom: 20px;
+}
+.starred-button {
+  background-color: #9897f0;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 10px;
+  height: 20px;
+  font-family: 'Roboto';
+  font-size: 11px;
+  font-weight: 500;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.un-starred-button {
+  background-color: transparent;
+  border: 1px solid #9897f0;
+  color: #9897f0;
+  border-radius: 10px;
+  height: 20px;
+  font-family: 'Roboto';
+  font-size: 11px;
+  font-weight: 500;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+}
+@media (max-width: 768px) {
+  .image-element {
+    display: none;
+  }
+  .input-element {
+    width: 130%;
+  }
+  .card-container {
+    padding: 20px;
+  }
+  .appointments-heading {
+    font-size: 18px;
+  }
+  .starred-button {
+    height: 16px;
+    font-size: 10px;
+  }
+  .list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
